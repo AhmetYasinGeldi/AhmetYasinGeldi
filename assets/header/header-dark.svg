@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Ahmet Yasin — developer profile</title>
+  <desc id="desc">Computer Engineering student and full-stack developer building JeoRapor.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111b2d"/>
+      <stop offset="1" stop-color="#17122b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <circle cx="1060" cy="65" r="120" fill="#2563eb" opacity=".12" filter="url(#glow)"/>
+  <circle cx="1120" cy="250" r="135" fill="#7c3aed" opacity=".12" filter="url(#glow)"/>
+  <g fill="none" stroke="#334155" opacity=".55">
+    <path d="M0 230C170 175 305 278 470 224S760 164 920 220s185 48 280 4"/>
+    <path d="M0 252c175-44 310 48 476 8s287-59 446-13 190 37 278 13"/>
+    <path d="M0 274c164-32 312 35 472 9s292-45 450-8 185 27 278 15"/>
+  </g>
+  <g transform="translate(72 62)">
+    <rect width="10" height="176" rx="5" fill="url(#accent)"/>
+    <text x="42" y="55" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="700" letter-spacing="1">Ahmet Yasin</text>
+    <text x="44" y="100" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="22" letter-spacing="2">COMPUTER ENGINEERING · FULL-STACK DEVELOPMENT</text>
+    <text x="44" y="145" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="20">Building practical software for real-world workflows.</text>
+    <g transform="translate(44 168)">
+      <circle cx="6" cy="6" r="6" fill="#22d3ee"/>
+      <text x="22" y="12" fill="#a5b4fc" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Currently building JeoRapor</text>
+    </g>
+  </g>
+  <g transform="translate(1010 103)" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round">
+    <path d="M0 18h65l32 32v80H0z" opacity=".85"/>
+    <path d="M65 18v34h32M21 76h55M21 99h55M21 122h34" opacity=".65"/>
+  </g>
+</svg>
